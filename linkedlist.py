@@ -9,3 +9,6 @@ class LinkedList:
 
     def size(self):
         return self.sz
+
+    def empty(self):
+        return self.head == None
