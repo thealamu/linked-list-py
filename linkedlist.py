@@ -1,2 +1,11 @@
+class Node:
+    data = None
+    next = None
+
+
 class LinkedList:
-    pass
+    head = None
+    sz = 0
+
+    def size(self):
+        return self.sz
