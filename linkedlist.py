@@ -24,3 +24,7 @@ class LinkedList:
             else:
                 raise IndexError("index out of bounds")
         return node
+
+    def push_front(self, value):
+        value.next = self.head.next
+        self.head.next = value
