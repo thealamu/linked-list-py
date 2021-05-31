@@ -29,3 +29,4 @@ class LinkedList:
     def push_front(self, value):
         value.next = self.head.next
         self.head.next = value
+        self.sz += 1
